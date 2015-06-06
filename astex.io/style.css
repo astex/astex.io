@@ -39,6 +39,11 @@ h4, h5, h6 {
   font-weight: bold;
 }
 
+small {
+  font-size: .9em;
+  color: #659c9c;
+}
+
 header {
   color: #ffffff;
   font-size: 1.5em;
@@ -110,4 +115,17 @@ footer {
   width: calc(100% - 30px);
   padding: 15px;
   display: block;
+}
+
+.school {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+}
+
+.school ul {
+  list-style-type: none;
+  padding-left: 15px;
+  margin-top: .5em;
+  margin-bottom: .5em;
 }
