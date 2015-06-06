@@ -57,7 +57,7 @@ footer {
   height: 100%;
 }
 
-.site .cover {
+.c_cover .cover {
   position: absolute;
   top: 0;
   left: 0;
@@ -69,7 +69,7 @@ footer {
   background-color: rgba(0,0,0,0.6);
 }
 
-.site:hover .cover {
+.c_cover:hover .cover {
   visibility: visible;
   opacity: 1;
   height: 100%;
