@@ -32,8 +32,8 @@ header {
 
 section.body {
   background-color: #f0ffff;
-  width: 100%;
-  height: calc(100vh - 3em);
+  width: calc(100% - 30px);
+  height: calc(100vh - 3em - 30px);
   overflow-y: auto;
   padding: 15px;
 }
