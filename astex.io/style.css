@@ -30,6 +30,7 @@ header {
   width: 100%;
   vertical-align: middle;
   padding-left: 15px;
+  box-shadow: -5px 3px 3px #999;
 }
 
 section.body {
