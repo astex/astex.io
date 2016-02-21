@@ -2,59 +2,68 @@
 <html>
   <head>
     <title>Phil Condreay</title>
+
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="fonts/css/astex.css">
-    <link rel="stylesheet" href="fonts/css/animation.css">
-    <link rel="stylesheet" href="fonts/css/astex-codes.css">
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="Minimalist web design. Elegant web development.">
   </head>
   <body>
-    <header><a href="/">Phil Condreay</a></header>
-    <section class="body">
-      <section>
-        <h1>Work</h1>
-        <div class="site c_cover">
-          <img src="img/foodtoeat.png">
-          <div class="cover">
-            <a href="https://foodtoeat.com" target="_blank">
-              <h2>FoodtoEat.com</h2>
-              <p>A food ordering service focussed on corporate and catering customers.</p>
-              <footer><strong>Position:</strong> Backend Developer</footer>
-            </a>
-          </div>
-        </div>
-        <div class="site c_cover">
-          <img src="img/django.png">
-          <div class="cover">
-            <a href="http://living-with-django.astex.io" target="_blank">
-              <h2>Living With Django</h2>
-              <p>A blog about dealing with a subpar backend web framework.</p>
-            </a>
-          </div>
-        </div>
-        <div class="site c_cover">
-          <img src="img/python.png">
-          <div class="cover">
-            <a href="http://github.com/astex/needs" target="_blank">
-              <h2>Needs</h2>
-              <p>A python library for permissions management.</p>
-            </a>
-          </div>
-        </div>
-      </section>
-      <section>
-        <h1>Education</h1>
-        <div class="school">
-          <h2>Penn State University <small>2008 to 2012</small></h2>
-          <ul>
-            <li>Astrophysics BS</li>
-            <li>Mathematics BS</li>
-            <li>Physics Minor</li>
-          </ul>
-        </div>
-      </section>
+    <section>
+      <p>Hi.</p>
+      <p>My name is Phil Condreay.  I'm a web developer living in Brooklyn, New York.</p>
+      <p>I believe that much of the modern web is over-designed, that people include structure in their sites without a good understanding of why.</p>
+      <p>My design work tends to be subdued.</p>
+      <p>If you'd like to get in touch about a project you'd like to build, you can email me at <a href="mailto:0astex@gmail.com">0astex@gmail.com</a>.</p>
+      <p>Here's a few projects I've worked on:</p>
     </section>
-    <a class="button action" href="mailto:0astex@gmail.com">
-      <i class="icon icon-mail"></i>
-    </a>
+    <section>
+      <ul class="resume">
+        <li class="light-green">
+          <div>
+            <h2>
+              <a href="//blocpower.org">
+                <img class="logo" src="/img/blocpower-logo.png" alt="BlocPower.org"><!--
+              --></a>
+              <small>
+                <time datetime="2016-02">Feb&nbsp;2016</time>&#8209;
+              </small>
+            </h2>
+            <p><a href="//blocpower.org">BlocPower.org</a> hired me to begin work on a brand new tech stack.  I have designed a deployment system using <a href="//docker.com">Docker</a>, <a href="//aws.amazon.com/elasticbeanstalk/">AWS Elastic Beanstalk</a>, and <a href="//jenkins-ci.org">Jenkins</a>.  We work using the <a href="//en.wikipedia.org/wiki/Agile_software_development">agile</a> development cycle.</p>
+          </div>
+        </li>
+        <li class="foodtoeat-red">
+          <div>
+            <h2>
+              <a href="//foodtoeat.com">
+                <img class="logo" src="/img/foodtoeat-logo.png" alt="FoodtoEat.com"><!--
+              --></a>
+              <small>
+                <time datetime="2014-02">Feb&nbsp;2014</time>&#8209;<!--
+                --><time datetime="2015-12">Dec&nbsp;2015</time>
+              </small>
+            </h2>
+            <p>At <a href="//foodtoeat.com">FoodtoEat.com</a>, I worked as one of a small team of developers.  I began my work there by reworking their backend framework into a RESTful API using <a href="//www.djangoproject.com/">django</a>.  Once the backend was layed out, I began to incorporate frontend work using <a href="//backbonejs.org/">backbone.js</a>.  I built most of their internal tooling.</p>
+          </div>
+        </li>
+        <li class="blue">
+          <div>
+            <h2>
+              <a href="//github.com/astex/needs">
+                <img class="logo" src="/img/github-logo.png"> needs.py<!--
+              --></a>
+              <small>
+                <time datetime="2014-09">Sept&nbsp;2014</time>&#8209;<!--
+                --><time datetime="2014-12">Dec&nbsp;2014</time>
+              </small>
+            </h2>
+            <p>Needs.py is a small, open source (<a href="//opensource.org/licenses/MIT">MIT License</a>) library for manipulating boolean conditionals in a convenient way.  It allows the programmer to perform boolean logic on <tt>Need</tt> instances storing the resulting instance, but not executing the conditionals until needed.  This is very useful for permission management in a web framework in which case permissions can be both complicated and database-intensive.</p>
+          </div>
+        </li>
+      </ul>
+    </section>
   </body>
 </html>
