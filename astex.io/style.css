@@ -29,8 +29,8 @@ h1, h2 {
 }
 h2 { font-size: 2.3em; }
 
-.light-green, .foodtoeat-red, .blue { color: #111; }
-.light-green h2 a, .foodtoeat-red h2 a, .blue h2 a { color: #fff; }
+.light-green, .foodtoeat-red, .blue, .google { color: #111; }
+.light-green h2 a, .foodtoeat-red h2 a, .blue h2 a, .google h2 a { color: #fff; }
 
 .foodtoeat-red { background-color: #d03b3b; }
 .foodtoeat-red a { color: #701313; }
@@ -53,10 +53,10 @@ section ul.resume li > div {
   min-width: 300px;
 }
 
-section p { margin: 4em auto; }
+section p { margin: 3.2em auto; }
 
 section ul.resume { list-style-type: none; padding: 0; margin: 0; }
-section ul.resume li { padding: 6em 0; }
+section ul.resume li { padding: 6em 0; border-top: 1px solid black; }
 
 h2 img { display: inline-block; }
 img.logo { max-height: 1em; position: relative; top: 6px; }
